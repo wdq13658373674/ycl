@@ -1,0 +1,50 @@
+.y-header .menu-box { width: 1110px; margin-left: auto; margin-right: auto; }
+
+* { margin: 0; padding: 0; }
+
+html { overflow-y: scroll; -webkit-overflow-scrolling: touch; -webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; }
+
+body { font-size: 14px; line-height: 1.5; color: #333; background-color: #fff; }
+
+body, button, input, select, textarea { font-family: "Helvetica Neue", Helvetica, Tahoma, sans-serif; }
+
+a { text-decoration: none; }
+a:hover { text-decoration: none; }
+
+img { border: 0 none; vertical-align: middle; }
+
+textarea { resize: vertical; }
+
+h1, h2, h3, h4, h5, h6, p, figure, form { margin: 0; }
+
+ul, ol, li, dl, dd { margin: 0; padding: 0; margin: 0; padding: 0; }
+
+ul, ol { list-style: none outside none; }
+
+* { margin: 0; padding: 0; }
+
+html { overflow-y: scroll; -webkit-overflow-scrolling: touch; -webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; }
+
+body { font-size: 14px; line-height: 1.5; color: #333; background-color: #fff; }
+
+body, button, input, select, textarea { font-family: "Helvetica Neue", Helvetica, Tahoma, sans-serif; }
+
+a { text-decoration: none; }
+a:hover { text-decoration: none; }
+
+img { border: 0 none; vertical-align: middle; }
+
+textarea { resize: vertical; }
+
+h1, h2, h3, h4, h5, h6, p, figure, form { margin: 0; }
+
+ul, ol, li, dl, dd { margin: 0; padding: 0; margin: 0; padding: 0; }
+
+ul, ol { list-style: none outside none; }
+
+.y-header { background: #000; width: 100%; height: 85px; line-height: normal; border: 1px solid #000; }
+.y-header .menu-box .menu { width: 112px; height: 49px; line-height: 49px; margin: 16px 10px; overflow: hidden; background: #000; float: left; }
+.y-header .menu-box .menu.active { background: red; }
+.y-header .menu-box .menu:hover { height: auto; background: blue; }
+.y-header .menu-box .menu > a { color: #fff; text-align: center; display: block; width: 100%; height: 49px; line-height: 49px; }
+.y-header .menu-box .menu > a:hover { background: green; }
