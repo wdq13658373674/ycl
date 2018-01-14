@@ -1,0 +1,39 @@
+@import "core/base";
+
+.y-header{
+  background: #000;
+  @include wh(100%,85px);
+  border:1px solid #000;
+  .menu-box{
+    @extend %main-width;
+
+    .menu{
+      @include wh(112px,49px,49px);
+      margin:16px 10px;
+      overflow: hidden;
+      background: #000;
+      float:left;
+
+
+      &.active{
+        background: red;
+      }
+
+      &:hover{
+        height:auto;
+        background: blue;
+      }
+
+      > a{
+        color:#fff;
+        text-align: center;
+        display:block;
+        @include wh(100%,49px,49px);
+
+        &:hover{
+          background: green;
+        }
+      }
+    }
+  }
+}

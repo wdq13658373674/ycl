@@ -1,0 +1,56 @@
+@charset "UTF-8";
+//-----------------------------------------------------  
+// reset scss
+// normalize之后，设置一些其他的样式及一些归零
+//----------------------------------------------------- 
+*{
+  margin:0;
+  padding: 0;
+}
+
+html { 
+  overflow-y: scroll; 
+  -webkit-overflow-scrolling: touch; 
+  -webkit-text-size-adjust: 100%; 
+  -ms-text-size-adjust: 100%; 
+}
+body { 
+  font-size: $baseFontSize;
+  line-height: $baseLineHeight; 
+  color:$textColor;
+  background-color:$bodyBgColor;
+}
+body, 
+button, 
+input, 
+select, 
+textarea{
+  font-family: $baseFontFamily;
+}
+a{
+  text-decoration: none;
+  &:hover{
+    text-decoration: none;
+  }
+}
+img {
+  border:0 none;
+  vertical-align: middle;
+}
+textarea {
+  resize: vertical;
+}
+h1,h2,h3,h4,h5,h6,p,figure,form {
+  margin:0;
+}
+// ul ol dl
+ul,ol,li,dl,dd{
+  margin: 0;
+  padding:0;
+  margin:0;
+  padding:0;
+}
+ul,ol{
+  list-style: none outside none;
+}
+
